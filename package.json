@@ -1,0 +1,11 @@
+{
+  "name": "dxCommon",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@dxCommon/dx-header": "file:packages/dx-header",
+    "dx-footer": "file:packages/dx-footer"
+  }
+}

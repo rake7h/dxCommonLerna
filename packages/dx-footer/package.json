@@ -1,0 +1,19 @@
+{
+  "name": "dx-footer",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "rakesh singh <rakesh.singh2@go-mmt.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/dx-footer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
