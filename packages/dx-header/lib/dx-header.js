@@ -1,11 +1,7 @@
 import React from 'react';
 
 function Header() {
-  return (
-    <>
-    hellop
-    </>
-  );
+  return 'Im Header';
 }
 
 export default Header;

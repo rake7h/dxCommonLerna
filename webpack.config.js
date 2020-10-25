@@ -2,6 +2,12 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
 
 module.exports = {
+  entry: {
+		dummpApp: './dummy/src/index.js',
+	},
+	output: {
+		path: path.resolve('./dist/dummyApp'),
+	},
   module: {
     rules: [{
         test: /\.(js|jsx)$/,
@@ -20,13 +26,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/assets/index.html",
+      template: "./dummy/src/assets/index.html",
       filename: "./index.html"
     })
   ],
-  resolve: {
-    alias: {
-      'dxCommon/test': path.resolve(__dirname, '../../packages/dx-header/lib/dx-header.js'),
-    }
-  },
 };
